@@ -5,7 +5,7 @@
         </div>
         <ul class="container">
             <li v-for="site of sites" v-bind:key="site.url" class="site">
-                <a v-bind:href="site.url">
+                <a v-bind:href="site.url" class="site-title">
                     {{ site.name }} <br /><br />
                     <img v-bind:src="site.img" class="site-img" />
                 </a>
@@ -40,7 +40,7 @@
 
     .site {
         background: #FAFAFA;
-        border: 1px solid #CCC;
+        border: 2px solid #CCC;
         border-radius: 5px;
         margin: 2px 5px 10px 5px;
         padding-top: 10px;
@@ -51,8 +51,7 @@
 
     .site:hover {
         background: rgb(214, 205, 194);
-        border: 3px solid rgb(57, 112, 105);
-        margin: 0 3px 8px 3px;
+        border: 2px solid rgb(57, 112, 105);
     }
 
     @media (min-width: 350px) {
@@ -76,6 +75,13 @@
     .site-img {
         width: 100%;
         max-height: 300px;
+    }
+
+    .site-title {
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(5, 110, 129);
     }
 
 </style>
