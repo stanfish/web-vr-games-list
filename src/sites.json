@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Moon Rider",
+        "url": "https://moonrider.xyz/",
+        "img": "https://user-images.githubusercontent.com/674727/54646629-e91dc600-4a5c-11e9-8a6e-91e77f28523d.jpg"
+    },
+    {
+        "name": "Sound Boxing",
+        "url": "https://webvr.soundboxing.co/",
+        "img": "https://beastsaber.files.wordpress.com/2019/05/null-2.png"
+    },
+    {
+        "name": "A-Painter",
+        "url": "https://aframe.io/a-painter/",
+        "img": "https://mixedreality.mozilla.org/static/apainter-b25f5cfd62257621c01f62262b29f74a.png"
+    }
+]
