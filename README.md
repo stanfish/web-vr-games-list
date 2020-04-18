@@ -2,6 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b26948f-e02f-467c-b894-f597834288af/deploy-status)](https://app.netlify.com/sites/vrgames/deploys)
 
+[Demo](https://vrgames.netlify.app/)
+
+
 ## Project setup
 ```
 yarn install
